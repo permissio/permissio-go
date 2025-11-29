@@ -5,7 +5,7 @@ The official Go SDK for [Permis.io](https://permis.io) - a powerful authorizatio
 ## Installation
 
 ```bash
-go get github.com/permisio/permisio-go
+go get github.com/permissio/permissio-go
 ```
 
 ## Quick Start
@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/permisio/permisio-go/pkg/config"
-	"github.com/permisio/permisio-go/pkg/enforcement"
-	"github.com/permisio/permisio-go/pkg/permit"
+	"github.com/permissio/permissio-go/pkg/config"
+	"github.com/permissio/permissio-go/pkg/enforcement"
+	"github.com/permissio/permissio-go/pkg/permit"
 )
 
 func main() {
@@ -96,9 +96,9 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/permisio/permisio-go/pkg/config"
-	"github.com/permisio/permisio-go/pkg/enforcement"
-	"github.com/permisio/permisio-go/pkg/permit"
+	"github.com/permissio/permissio-go/pkg/config"
+	"github.com/permissio/permissio-go/pkg/enforcement"
+	"github.com/permissio/permissio-go/pkg/permit"
 )
 
 var permisClient *permit.Client

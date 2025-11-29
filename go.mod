@@ -1,4 +1,4 @@
-module github.com/permisio/permisio-go
+module github.com/permissio/permissio-go
 
 go 1.23.0
 
